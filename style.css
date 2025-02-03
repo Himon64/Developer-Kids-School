@@ -16,6 +16,10 @@
 .color{
   color: black;    
 }
+.nav-links-size{
+  font-size: 1.25rem;
+  font-weight: 500;
+}
 /* navber of header styles */
 .header-width{  
   max-width: 1160px;
@@ -40,6 +44,18 @@
   margin-right: 32px;
   text-decoration: none;
   text-align: center;
+}
+.home-color{
+  color: #FEA301;
+}
+.about-color{
+  color: #01ACFD;
+}
+.facilities{
+  color: #05D4DF;
+}
+.admission{
+  color: #5D58EF;
 }
 .nav-btn{
   width: 197px;
