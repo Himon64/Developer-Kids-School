@@ -20,6 +20,17 @@
   font-size: 1.25rem;
   font-weight: 500;
 }
+.color-text{
+  font-size: 1rem;
+  font-weight: 700;
+  text-align: center;
+}
+.Standard-card-shared{
+  width: 367px;
+  height: 476px;
+  box-shadow: 0px 0px 28.3px 0.94px #000000;
+  border-radius: 18.86px; 
+}
 /* navber of header styles */
 .header-width{  
   max-width: 1160px;
@@ -89,4 +100,51 @@
   width: 468px;
   height: 575px;
 }
-
+/* main styles */
+.Curriculum-title{
+  text-align: center;
+  font-size: 2.875rem;
+  font-weight: 700;
+  color: #000000;
+  margin-top: 60px;
+}
+.Standard-card-1{
+  background: linear-gradient(to top,white,white,white,rgba(222,245,255) );
+  border: 1px solid lightblue;
+}
+.Standard-card-2{
+  background: linear-gradient(to top,white,white,white,#FFF4DC);
+  border: 1px solid #c0a058;
+}
+.Standard-card-3{
+  background: linear-gradient(to top,white,white,white,#F2E8FF);
+  border: 1px solid #7c60a0;
+}
+.card-image{
+  padding: 52px 115px 32px 115px;
+}
+.card-title{
+  font-size: 24.52px;
+  font-weight: 700;
+  color: #202020;
+  text-align: center;
+}
+.card-description{
+  font-size: 1rem;
+  font-weight: 500;
+  color: #808080;
+  text-align: center;
+}
+.color-text-1{
+  color: #64C8FF;
+}
+.color-text-2{
+  color: #F0AA00;
+}
+.color-text-3{
+  color: #8700FF;
+}
+.card-gap{
+  gap: 28px;
+  margin-top: 80px;
+}
