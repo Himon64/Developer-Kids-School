@@ -65,4 +65,28 @@
   padding: 10px 60px;
   border: none;
 }
+/* header styles */
+.header-container{
+  display: flex;
+}
+.header-title{
+  font-size: 3.5rem;
+  font-weight: 700;
+}
+.header-btn{
+  width: 197px;
+  background-color: #111111;
+  border-radius: 12px;
+  color: #FFFFFF;
+  padding: 10px 47px;
+  border: none;
+}
+.Empowering{
+  width: 640px;
+  margin: 80px 50px 122px 0px;
+}
+.hero-kids{
+  width: 468px;
+  height: 575px;
+}
 
