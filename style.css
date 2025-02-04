@@ -31,14 +31,26 @@
   box-shadow: 0px 0px 28.3px 0.94px #000000;
   border-radius: 18.86px; 
 }
+.stori-shared{
+  width: 290.69px;
+  background-color:#FFFFFF;
+  font-size:1rem;
+  font-weight: 700;
+  color: #000000;                   
+  line-height: 28px;
+  /* padding: 38px 62px 33px 38px; */
+  border: 4px solid green;
+}
+.right-radius{
+  border-radius: 16px 16px 0px 0px;
+}
 /* navber of header styles */
 .header-width{  
   max-width: 1160px;
   margin: 0 auto;
 }
 .navbar{
-  /* background-color: yellow; */
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
 }
 .nav-icon{
@@ -147,4 +159,130 @@
 .card-gap{
   gap: 28px;
   margin-top: 80px;
+}
+
+.circle-btn{
+  background-color:#FEA301;
+  border: none;
+  color: #FFFFFF;
+  width: 60px;
+  height: 60px;
+  font-size: 1.5rem;
+  border-radius: 50%;
+}
+.circle-div-1{
+  max-width: 1160px;
+  margin: 0 auto;
+  margin-top: 80px;
+}
+.circle-div{
+  max-width: 1160px;
+  margin: 0 auto;
+  margin-top: 80px;  
+}
+.gap{
+  padding: 0px 530px; 
+  gap: 10px;
+}
+/* Our Stories */
+.stori-title{
+  font-size: 2.875rem;
+  font-weight: 700;
+  color: #000000;
+  text-align: center;
+  margin-top: 60px;
+}
+.stori-left-image{
+  width: 540px;
+  background-color: #FFFFFF;
+  margin-right: 19px;
+}
+.stori-image-title{
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #000000;
+  padding: 61px 99px 0px 38px;
+}
+.stori-description{
+  font-size: 1rem;
+  font-weight: 500;
+  color: #666666;
+  padding: 47px 68px 34px 38px;
+  line-height: 28px;
+}
+.image-radius{
+  border-radius: 16px 16px 0px 0px;
+}
+.right-image-4{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  gap: 19px;
+}
+.importent-color{
+  background-image: url(./assets/bg.png),linear-gradient(to top,#fde3b1,#FFFFFF);
+}
+.stori-btn{
+  background-color: #111111;
+  color: #FFFFFF;
+  font-size: 1.25rem;
+  font-weight: 700;
+  padding: 10px 61px;
+  border-radius: 12px;
+  border: none;
+  display: grid;
+  max-width: 1160px;
+  margin: 0 auto;
+  margin-top: 60px;
+}
+
+/* footer styles */
+.footer-bg{
+  background-color: #01ACFD;
+}
+.item-center{
+  justify-content: space-between;
+}
+.footer-width{
+  max-width: 1170px;
+  margin: 0 auto;
+  padding: 123px 228px 4px 140px ;
+}
+.footer-education{
+  font-size: 2.625rem;
+  font-weight: 700;
+  color: #FFFFFF;
+}
+.footer-link>p>a{
+  text-decoration: none;
+  color: white;
+}
+.footer-link>p{
+  padding-top: 24px;
+}
+
+.footer-icon{
+  width: 90px;
+  height: 90px;
+  margin-top: 25px;
+  
+}
+.footer-description{
+  font-size:  1.25rem;
+  font-weight: 500;
+  color: white;
+  padding: 35px 172px 180px 0px;
+}
+.footer-about{
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: white;
+}
+.footer-keep{
+  font-size: 1.625rem;
+  font-weight: 700;
+  color: white;
+}
+.touch-icon{
+  display: flex;
+  gap: 14px;
 }
