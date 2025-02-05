@@ -315,6 +315,9 @@
   .header-container{
     flex-direction: column-reverse;
   }
+  .Empowering{
+    max-width: 523px;
+  }
   .header-btn{
     margin-left: 153px;
   }
@@ -342,5 +345,11 @@
   .item-center{
     flex-direction: column;
     margin-left: -52px;
+  }
+  footer{
+    background-color: 100%;
+  }
+  .nav-btn{
+    display: none;
   }
 }
