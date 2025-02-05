@@ -5,7 +5,9 @@
     font-optical-sizing: auto;
     font-weight: 400;
     font-style: normal;
-  }
+}
+
+
 .bg{
     background-image: url(./assets/bg.png);
 }
@@ -25,6 +27,7 @@
   font-weight: 700;
   text-align: center;
 }
+
 .Standard-card-shared{
   width: 367px;
   height: 476px;
@@ -38,11 +41,20 @@
   font-weight: 700;
   color: #000000;                   
   line-height: 28px;
-  /* padding: 38px 62px 33px 38px; */
-  border: 4px solid green;
+  border-radius: 16px;
 }
 .right-radius{
   border-radius: 16px 16px 0px 0px;
+}
+.all-btn{
+  color: white;
+  font-size: 1rem;
+  font-weight: 500;
+  padding: 14px 19px;
+  border-radius: 47px;
+  margin-top: -40px;
+  margin-left: 38px;
+  border: none;
 }
 /* navber of header styles */
 .header-width{  
@@ -196,6 +208,7 @@
   width: 540px;
   background-color: #FFFFFF;
   margin-right: 19px;
+  border-radius: 16px;
 }
 .stori-image-title{
   font-size: 1.5rem;
@@ -216,7 +229,7 @@
 .right-image-4{
   display: grid;
   grid-template-columns: repeat(2,1fr);
-  gap: 19px;
+  gap: 9px;
 }
 .importent-color{
   background-image: url(./assets/bg.png),linear-gradient(to top,#fde3b1,#FFFFFF);
@@ -234,7 +247,18 @@
   margin: 0 auto;
   margin-top: 60px;
 }
-
+.btn{
+  background-color: #3CD8E8;
+}
+.btn-1{
+  background-color: #95B226;
+}
+.btn-2{
+  background-color: #5D58F0;
+}
+.btn-3{
+  background-color: #95B226;
+}
 /* footer styles */
 .footer-bg{
   background-color: #01ACFD;
@@ -243,7 +267,7 @@
   justify-content: space-between;
 }
 .footer-width{
-  max-width: 1170px;
+  max-width: 2170px;
   margin: 0 auto;
   padding: 123px 228px 4px 140px ;
 }
@@ -285,4 +309,38 @@
 .touch-icon{
   display: flex;
   gap: 14px;
+}
+/* header media query */
+@media screen and (max-width:576px) {
+  .header-container{
+    flex-direction: column-reverse;
+  }
+  .header-btn{
+    margin-left: 153px;
+  }
+  .nav-links-size{
+    font-size: 25px;
+    padding-right: 94px;
+  }
+  .Curriculum-title{
+    margin-left: 74px;
+  }
+  .card-container{
+    flex-direction: column;
+    margin-left: 73px;
+  }
+  .gap{
+    display: none;
+  }
+  .stori-left-image{
+    display: none;
+  }
+  .right-image-4{
+    grid-template-columns: repeat(1,1fr);
+    margin-left: 94px;
+  }
+  .item-center{
+    flex-direction: column;
+    margin-left: -52px;
+  }
 }
